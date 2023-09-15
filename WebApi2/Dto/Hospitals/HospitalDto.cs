@@ -1,0 +1,31 @@
+﻿using Api.Domain.Hospitales;
+
+namespace ApiWeb.Webapi.Dto.Hospitals
+{
+    public class HospitalDto
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public string Logo { get; set; }
+
+        public Int32 RegistrationNumber { get; set; }
+
+        public Int64? ContactNumber { get; set; }
+
+        public string Website { get; set; }
+
+        public string MailId { get; set; }
+
+        public string Address1 { get; set; }
+
+        public string Address2 { get; set; }
+
+        public string City { get; set; }
+
+        public string State { get; set; }
+        public int? PinCode { get; set; }
+
+    }
+}
